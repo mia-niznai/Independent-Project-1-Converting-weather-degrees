@@ -1,10 +1,10 @@
 // Define Kelvin variable
 const kelvin = 293;
-//console.log(kelvin)
+console.log(`The temperature is ${kelvin} degrees Kelvin.`)
 
 //Define Celsius variable: 273 degrees less than Kelvin
 let celsius = kelvin - 273;
-//console.log(celsius)
+console.log(`The temperature is ${celsius} degrees Celsius.`)
 
 //Fahrenheit = Celsius * (9/5) + 32
 let fahrenheit = celsius * (9 / 5) + 32;
